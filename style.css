@@ -169,12 +169,13 @@ color: bisque;
     left: 100px;
     font-size: xx-small;
     top: 400px;
+    animation-direction: alternate-reverse;
   
   }
   
   @keyframes i1 {
-    from{left: 110px;}
-    to{left: 80px;}
+    from{left: 180px;}
+    to{left: 90px;}
   }
  
 }
@@ -187,8 +188,8 @@ color: bisque;
   
   }
   @keyframes i1 {
-      from{left: 115px;}
-      to{left: 50px;}
+     from{left: 180px;}
+    to{left: 90px;}
     }
 }
 @media (max-width:500px) {
@@ -196,11 +197,12 @@ color: bisque;
     width: 150px;
     left: 100px;
     top: 400px;
+    animation-direction: alternate-reverse;
   
   }
     @keyframes i3 {
-      from{left: 190px;}
-      to{left: 100px;}
+      from{left: 180px;}
+    to{left: 90px;}
     }
   }
 @media (max-width:500px) {
@@ -210,8 +212,8 @@ color: bisque;
    top: 400px;
   
   } @keyframes i4 {
-      from{left: 190px;}
-      to{left: 50px;}
+      from{left: 180px;}
+    to{left: 90px;}
     }
  
 }
