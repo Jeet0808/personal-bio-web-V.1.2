@@ -151,16 +151,16 @@ color: bisque;
   to{left: 600px;}
 }
 @keyframes i2 {
-  from{left: 680px;}
-  to{left: 590px;}
+  from{left: 690px;}
+  to{left: 600px;}
 }
 @keyframes i3 {
-  from{left: 680px;}
-  to{left: 590px;}
+  from{left: 690px;}
+  to{left: 600px;}
 }
 @keyframes i4 {
-  from{left: 680px;}
-  to{left: 590px;}
+  from{left: 690px;}
+  to{left: 600px;}
 }
 
 @media (max-width:500px) {
