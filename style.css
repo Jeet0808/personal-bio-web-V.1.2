@@ -1,0 +1,383 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(3, 11, 36);
+  color: rgb(255, 255, 255);
+}
+
+
+#id{
+  
+  position: relative;
+  text-align: right;
+
+ 
+}
+
+#thank{
+  
+  color: rgb(255, 255, 255);
+}
+
+
+
+#mode{
+  background-color: rgb(84, 30, 60);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 5px;
+  margin-left: 1px;
+  width: 100px;
+  height: 30px;
+ 
+  
+}
+#mode:hover{
+  width: 130px;
+  height: 40p;
+  background-color: rgba(31, 0, 87, 0.612);
+}
+
+#h11{
+  text-align: center;
+  background-color: rgb(3, 11, 36);
+  color: rgb(255, 255, 255);
+  margin: bottom 0;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+/* methode 2 */
+.light{
+background-color: rgb(255, 255, 255);
+
+color: rgb(3, 11, 36);
+}
+.dark{
+  background-color: rgb(3, 11, 36);
+  color: rgb(255, 255, 255);
+  }
+  
+ 
+
+ #i1{
+  height: 75px;
+  width: 220px;
+  font-size:small;
+  font-style: bold;
+  background-color:rgb(4, 36, 87);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: 60px;
+  
+  animation-name: i1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  
+ }
+ 
+ 
+ 
+ #i2{
+  height: 75px;
+  width: 220px;
+  font-size:xx-large;
+  font-style: bold;
+  background-color:rgb(4, 36, 87);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: 60px;
+  animation-name: i1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+ 
+ }
+ #i3{
+  height: 75px;
+  width: 220px;
+  font-size:xx-large;
+  font-style: bold;
+  background-color:rgb(4, 36, 87);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: 60px;
+  animation-name: i1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+ 
+ }
+ #i4{
+  height: 75px;
+  width: 220px;
+  font-size:xx-large;
+  font-style: bold;
+  background-color:rgb(4, 36, 87);
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: 60px;
+  animation-name: i1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+ 
+ }
+
+@keyframes i1 {
+  from{left: 690px;}
+  to{left: 600px;}
+}
+@keyframes i2 {
+  from{left: 680px;}
+  to{left: 590px;}
+}
+@keyframes i3 {
+  from{left: 680px;}
+  to{left: 590px;}
+}
+@keyframes i4 {
+  from{left: 680px;}
+  to{left: 590px;}
+}
+
+@media (max-width:500px) {
+  #i1{
+    width: 150px;
+    left: 100px;
+    font-size: xx-small;
+    top: 400px;
+    animation-direction: alternate-reverse;
+  
+  }
+  
+  @keyframes i1 {
+    from{left: 180px;}
+    to{left: 90px;}
+  }
+ 
+}
+@media (max-width:500px) {
+  #i2{
+    width: 150px;
+    left: 100px;
+    top: 400px;
+    
+  
+  }
+  @keyframes i2 {
+      from{left: 115px;}
+      to{left: 50px;}
+    }
+}
+@media (max-width:500px) {
+  #i3{
+    width: 150px;
+    left: 100px;
+    top: 400px;
+    animation-direction: alternate-reverse;
+  
+  }
+    @keyframes i3 {
+      from{left: 190px;}
+      to{left: 100px;}
+    }
+  }
+@media (max-width:500px) {
+  #i4{
+    width: 150px;
+    left: 100px;
+   top: 400px;
+  
+  } @keyframes i4 {
+      from{left: 190px;}
+      to{left: 50px;}
+    }
+ 
+}
+
+ #i1:hover{
+  background-color: rgba(34, 5, 88, 0.518);
+ }
+ #i2:hover{
+  background-color: rgba(31, 0, 87, 0.612);
+ }
+ #i3:hover{
+  background-color: rgba(34, 5, 88, 0.518);
+ }
+ #i4:hover{
+  background-color: rgba(34, 5, 88, 0.518);
+ }
+ 
+  
+ 
+ #me{
+  background-color:  rgb(3, 11, 36);
+  height: 150px;
+  width: 200px;
+  font-size: large;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+ }
+ #Policy{
+  background-color:rgb(3, 11, 36);
+  height: 150px;
+  width: 150px;
+  font-size: large;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  
+  
+ }
+ #cont{
+  width: 100%;
+  background-color: rgb(3, 11, 36);
+  height: 500px;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top: 900px;
+ }
+ 
+  #id1{
+    height: 15px;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+    
+    
+  }
+  #id2{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+   
+    position: relative;
+    bottom: 10px;
+    right: 55px;
+    
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-style: italic;
+  } 
+
+  
+   #photo{
+    display: inline-block;
+    text-align: left;
+    height: 155px;
+    width: 315px;
+    border: 15px solid ;
+    border-color: rgb(3, 11, 36);
+    
+    margin-right: 0;
+    position: relative;
+    top: 156px;
+    
+    animation-name: photo;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+  }
+   @keyframes photo {
+    from{left: 14px;}
+    to{left: 1px;}
+  } 
+  #photo2{
+    display: inline-block;
+    text-align: left;
+    height: 155px;
+    width: 315px;
+    border: 15px solid ;
+    border-color: rgb(3, 11, 36);
+    font-size: xx-large;
+    
+    position: absolute;
+    top: 49px;
+    bottom: 10px; 
+   
+    animation-name: photo;
+    animation-duration: 1.3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 0;
+  }
+   @media (max-width:500px) {
+    #photo2{
+      position: absolute;
+      top: 120px;
+      animation-duration: 1s;
+      animation-direction: alternate-reverse;
+      
+    }
+    @keyframes photo {
+        from{left: 50px;}
+        to{left: 0px;}
+  }
+}
+@media (max-width:500px) {
+  #photo{
+    position: absolute;
+    top:305px;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+
+}
+
+   @keyframes photo2 {
+    from{left: 100px;}
+    to{left: 10px;}
+  } 
+  #p2{
+    height: 15px;
+    width: 200px;
+    display: inline-block;
+     position: relative;
+      bottom: 184px;
+      left: 222px;
+
+  }
+   #p1{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+   
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+   
+    font-size: xx-large;
+    font-style: italic;
+  }  
