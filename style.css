@@ -147,8 +147,8 @@ color: bisque;
  }
 
 @keyframes i1 {
-  from{left: 900px;}
-  to{left: 840px;}
+  from{left: 690px;}
+  to{left: 600px;}
 }
 @keyframes i2 {
   from{left: 680px;}
